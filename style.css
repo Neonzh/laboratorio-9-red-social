@@ -5,7 +5,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 body {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(0, 0, 0);
   display: flex;
 }
 .centro {
@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10rem;
   width: 50%;
   margin-top: 0;
   margin-bottom: 0;
@@ -270,4 +269,78 @@ li.marcador button:hover {
 li.enviar button:hover {
   background-color: rgba(0, 174, 255, 0.555);
   box-shadow: 0 0 20px rgba(0, 68, 255, 0.555);
+}
+
+.derecha {
+  padding: 2.5rem;
+  padding-top: 1rem;
+  padding-right: 0;
+  width: 20%;
+}
+.derecha nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.derecha nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.derecha nav li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  transition: 0.2s;
+}
+.derecha nav img {
+  width: 2rem;
+  filter: invert(1);
+}
+.derecha nav a {
+  color: white;
+  text-decoration: none;
+}
+.derecha nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.2s;
+  border: 0;
+}
+.derecha nav li:hover {
+  background-color: rgba(51, 51, 51, 0.733);
+  border-radius: 50px;
+}
+.derecha nav button:hover {
+  background-color: rgba(214, 214, 214, 0.733);
+}
+.izquierda {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 1rem;
+  gap: 1rem;
+  width: 300%;
+}
+form.buscador input {
+  padding: 0.5rem;
+  border-radius: 50px;
+  border: 1px solid rgb(87, 87, 87);
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+}
+form.buscador input:focus {
+  border: 2px solid rgb(3, 119, 228);
+  outline: none;
 }

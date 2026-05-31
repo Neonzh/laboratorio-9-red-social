@@ -8,8 +8,38 @@
   </head>
   <body>
     <div class="derecha">
-      <h3>ingrese texto aqui</h3>
-      <p>aqui deberia ir la barra de x</p>
+      <nav class="navegacionprincipal">
+        <img src="assets/x.png" alt="logo" />
+        <ul>
+          <li>
+            <img src="assets/home.png" alt="casa" /><a href="#">Inicio</a>
+          </li>
+          <li>
+            <img src="assets/explore.png" alt="explorar" /><a href="#"
+              >Explorar</a
+            >
+          </li>
+          <li>
+            <img src="assets/notification.png" alt="notificaciones" /><a
+              href="#"
+              >Notificaciones</a
+            >
+          </li>
+          <li><img src="assets/chat.png" alt="chat" /><a href="#">Chat</a></li>
+          <li>
+            <img src="assets/x.png" alt="precios" /><a href="#">Precios</a>
+          </li>
+          <li>
+            <img src="assets/usericon.png" alt="perfili" /><a href="#"
+              >Perfil</a
+            >
+          </li>
+          <li>
+            <img src="assets/options.png" alt="" /><a href="#">Mas opciones</a>
+          </li>
+        </ul>
+        <button>Postear</button>
+      </nav>
     </div>
     <div class="centro">
       <header class="centro_header">
@@ -130,9 +160,35 @@
       </div>
     </div>
     <div class="izquierda">
+      <form class="buscador" action="/buscar" method="get">
+        <input type="text" placeholder="Buscar.." name="pregunta" />
+      </form>
       <div class="izquierda1">
-        <h3>ingrese texto aqui</h3>
-        <p>aqui deberia ir la sona de recomendacion</p>
+        <h3>Talvez te guste</h3>
+        <div class="sugeruser">
+          <div class="textosugeruser">
+            <h4>Eliana Turpo Choque</h4>
+            <p>@Eli10206</p>
+          </div>
+          <button>seguir</button>
+        </div>
+        <div class="sugeruser">
+          <div class="textosugeruser">
+            <h4>Marco Lavado Quispe</h4>
+            <p>@Marc0109</p>
+          </div>
+          <button>seguir</button>
+        </div>
+        <div class="sugeruser">
+          <div class="textosugeruser">
+            <h4>Elon Musk</h4>
+            <p>@Mush0704</p>
+          </div>
+          <button>seguir</button>
+        </div>
+        <div class="sugeruser">
+          <p>Mostrar mas</p>
+        </div>
       </div>
       <div class="izquierda2">
         <h3>ingrese texto aqui</h3>
