@@ -329,7 +329,18 @@ li.enviar button:hover {
   justify-content: left;
   padding: 1rem;
   gap: 1rem;
-  width: 300%;
+  width: 25%;
+}
+.izquierda1 {
+  border: 2px solid rgb(87, 87, 87);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.izquierda1 h3 {
+  padding: 1rem;
+  padding-bottom: 0;
 }
 form.buscador input {
   padding: 0.5rem;
@@ -343,4 +354,49 @@ form.buscador input {
 form.buscador input:focus {
   border: 2px solid rgb(3, 119, 228);
   outline: none;
+}
+.sugeruser {
+  display: flex;
+  justify-content: left;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  gap: 1rem;
+  transition: 0.3s;
+}
+.sugeruser img {
+  width: 2.5rem;
+}
+.butonuser {
+  margin-left: auto;
+}
+.butonuser button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.sugeruser p {
+  color: rgb(133, 133, 133);
+}
+p.sugeruser {
+  color: rgb(86, 151, 204);
+  padding: 1rem;
+  padding-top: 0;
+  border-radius: 0 0 20px 20px;
+}
+.sugeruser:hover {
+  background-color: rgb(39, 39, 39);
+}
+.izquierda2 {
+  display: flex;
+}
+.izquierda2 p a,
+.izquierda2 p {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+  line-height: 2rem;
 }
