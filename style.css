@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  min-width: 40rem;
   margin-top: 0;
   margin-bottom: 0;
   padding: 2rem;
@@ -113,7 +114,7 @@ header {
 }
 .unico1 a:hover,
 .centro4 a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 .seguidor {
   background-color: black;
@@ -280,6 +281,7 @@ li.enviar button:hover {
 .derecha nav {
   display: flex;
   flex-direction: column;
+  position: fixed;
   gap: 1rem;
 }
 .derecha nav ul {
@@ -315,6 +317,9 @@ li.enviar button:hover {
   transition: 0.2s;
   border: 0;
 }
+.derecha nav button img {
+  display: none;
+}
 .derecha nav li:hover {
   background-color: rgba(51, 51, 51, 0.733);
   border-radius: 50px;
@@ -327,6 +332,8 @@ li.enviar button:hover {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  position: fixed;
+  right: 6rem;
   padding: 1rem;
   gap: 1rem;
   width: 25%;
@@ -365,6 +372,7 @@ form.buscador input:focus {
 }
 .sugeruser img {
   width: 2.5rem;
+  height: auto;
 }
 .butonuser {
   margin-left: auto;
@@ -399,4 +407,33 @@ p.sugeruser {
   text-decoration: none;
   color: rgb(133, 133, 133);
   line-height: 2rem;
+}
+@media (max-width: 1000px) {
+  .derecha {
+    width: 7rem;
+  }
+  nav {
+    justify-content: center;
+  }
+  .navegacionprincipal a {
+    display: none;
+  }
+  .navegacionprincipal button {
+    margin: 0.2rem;
+  }
+  .derecha nav button p {
+    display: none;
+  }
+  .derecha nav button img {
+    display: flex;
+    filter: invert(0);
+  }
+  .izquierda {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .sugeruser img {
+    display: none;
+  }
 }
