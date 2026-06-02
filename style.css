@@ -333,7 +333,7 @@ li.enviar button:hover {
   flex-direction: column;
   justify-content: left;
   position: fixed;
-  right: 6rem;
+  right: 1rem;
   padding: 1rem;
   gap: 1rem;
   width: 25%;
@@ -408,7 +408,7 @@ p.sugeruser {
   color: rgb(133, 133, 133);
   line-height: 2rem;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
   .derecha {
     width: 7rem;
   }
