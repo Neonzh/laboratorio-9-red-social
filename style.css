@@ -408,6 +408,9 @@ p.sugeruser {
   color: rgb(133, 133, 133);
   line-height: 2rem;
 }
+.izquierda2 p a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 1120px) {
   .derecha {
     width: 7rem;
